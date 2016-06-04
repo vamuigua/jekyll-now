@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ###Object Oriented Programming
+title: Object Oriented Programming
 ---
 *It asks "What things are in this program?"
 *In OOP code,you define a Car Object and then list all of the functions it needs to perform.
