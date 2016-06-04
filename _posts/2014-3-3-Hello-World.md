@@ -2,7 +2,7 @@
 layout: post
 title: Object Oriented Programming
 ---
-*It asks "What things are in this program?"
+<p>It asks "What things are in this program?"</p>
 *In OOP code,you define a Car Object and then list all of the functions it needs to perform.
 *You define 2 new objects of the type car;all functions and varialbles would become capabilities that carA or carB would use bt. a and b would override and honk differntly
 *If u want the car to drive differently in different terrain,OOP does not need to touch the working code bt. b4 jst types in a new function that gives the all-terrain capabilities.
