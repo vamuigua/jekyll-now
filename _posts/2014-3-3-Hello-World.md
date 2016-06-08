@@ -99,6 +99,6 @@ slighty different functionality.
 
 The two basic types of polymorphism are:**Overriding** & **Overloading**
 
-**1.Overriding**-also called *run-time polymorphism*;the compiler determines which method will be executed, and this decision is made when the code gets compiled.is a type of function which occurs in a class which inherits from another class. An override function "replaces" a function inherited from the base class, but does so in such a way that it is called even when an instance of its class is pretending to be a different type through polymorphism
-.
+**1.Overriding**-also called *run-time polymorphism*;the compiler determines which method will be executed, and this decision is made when the code gets compiled.is a type of function which occurs in a class which inherits from another class. An override function "replaces" a function inherited from the base class, but does so in such a way that it is called even when an instance of its class is pretending to be a different type through polymorphism.
+
 **2.Overloading**-also *compile-time polymorphism*;s the action of defining multiple methods with the same name, but with different parameters. It is unrelated to either overriding or polymorphism.
