@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chrome Development Tools
+title: Chrome Developer Tools
 ---
 **Chrome Developer Tools**
 -The Chrome Developer Tools are a set of web authoring and debugging tools built into Google Chrome.
