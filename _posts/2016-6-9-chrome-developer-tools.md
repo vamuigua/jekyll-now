@@ -9,7 +9,7 @@ title: Chrome Developer Tools
 **Accessing the DevTools**<br/>
 -To access the DevTools, open a web page or web app in Google Chrome;Either:<br/>
 +Select the Chrome menu *Chrome Menu* at the top-right of your browser window, then select *Tools* then *Developer Tools*.<br/>
-+*Right-click* on any page element and select *Inspect Element*.
++*Right-click* on any page element and select *Inspect Element*.<br/>
 -The DevTools window will then open.<br/>
 
 **The DevTools Window**<br/>
