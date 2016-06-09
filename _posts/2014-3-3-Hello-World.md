@@ -64,6 +64,4 @@ We can interact with any objects or classes that share an interface the same way
 This is class that is not meant to be instantiated instead it serves as an ancestor for the other classes.
 
 **Prototypical inheritance**<br />
-In prototypical inheritance, there is no formal notion of classes, just objects linked together and it is up to the programmer to treat certain objects like classes, give them methods and fields and then produce instances that link back to that object.  
-
-
+In prototypical inheritance, there is no formal notion of classes, just objects linked together and it is up to the programmer to treat certain objects like classes, give them methods and fields and then produce instances that link back to that object.
