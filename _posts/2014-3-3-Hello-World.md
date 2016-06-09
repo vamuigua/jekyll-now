@@ -103,5 +103,3 @@ The two basic types of polymorphism are:**Overriding** & **Overloading**
 
 **2.Overloading**-also *compile-time polymorphism*;s the action of defining multiple methods with the same name, but with different parameters. It is unrelated to either overriding or polymorphism.
 
-**Chrome Developer Tools**
-The Chrome Developer Tools are a set of web authoring and debugging tools built into Google Chrome. 
