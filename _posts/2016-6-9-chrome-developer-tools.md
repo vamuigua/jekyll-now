@@ -2,9 +2,9 @@
 layout: post
 title: Chrome Developer Tools
 ---
-**Chrome Developer Tools**
+**Chrome Developer Tools**<br/>
 -The Chrome Developer Tools are a set of web authoring and debugging tools built into Google Chrome.
--The DevTools provide web developers deep access into the internals of the browser and their web application.Its used to efficiently track down layout issues, set JavaScript breakpoints and get insights for code optimization.
+-The DevTools provide web developers deep access into the internals of the browser and their web application.Its used to efficiently track down layout issues, set JavaScript breakpoints and get insights for code optimization.<br/>
 
 **Accessing the DevTools**
 -To access the DevTools, open a web page or web app in Google Chrome;Either:
