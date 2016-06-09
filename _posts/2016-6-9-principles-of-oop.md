@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Principles of Object Oriented Programming
+title: Principles of Object Oriented Programming
 ---
 **The Four major principles of Object-Oriented Programming**<br/>
 **1. Encapsulation:**
