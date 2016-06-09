@@ -65,10 +65,7 @@ This is class that is not meant to be instantiated instead it serves as an ances
 
 **Prototypical inheritance**<br />
 In prototypical inheritance, there is no formal notion of classes, just objects linked together and it is up to the programmer to treat certain objects like classes, give them methods and fields and then produce instances that link back to that object.  
----
-layout: post
-title: The Principles of Object Oriented Programming
----
+
 **The Four major principles of Object-Oriented Programming**<br/>
 **1. Encapsulation:**
 Encapsulation means that the internal representation of an object is generally hidden from view outside of the object’s definition;only the object’s own methods can directly inspect or manipulate its fields.
