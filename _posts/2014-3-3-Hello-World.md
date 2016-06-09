@@ -65,7 +65,10 @@ This is class that is not meant to be instantiated instead it serves as an ances
 
 **Prototypical inheritance**<br />
 In prototypical inheritance, there is no formal notion of classes, just objects linked together and it is up to the programmer to treat certain objects like classes, give them methods and fields and then produce instances that link back to that object.  
-
+---
+layout: post
+title: The Principles of Object Oriented Programming
+---
 **The Four major principles of Object-Oriented Programming**<br/>
 **1. Encapsulation:**
 Encapsulation means that the internal representation of an object is generally hidden from view outside of the object’s definition;only the object’s own methods can directly inspect or manipulate its fields.
@@ -102,3 +105,6 @@ The two basic types of polymorphism are:**Overriding** & **Overloading**
 **1.Overriding**-also called *run-time polymorphism*;the compiler determines which method will be executed, and this decision is made when the code gets compiled.is a type of function which occurs in a class which inherits from another class. An override function "replaces" a function inherited from the base class, but does so in such a way that it is called even when an instance of its class is pretending to be a different type through polymorphism.
 
 **2.Overloading**-also *compile-time polymorphism*;s the action of defining multiple methods with the same name, but with different parameters. It is unrelated to either overriding or polymorphism.
+
+**Chrome Developer Tools**
+The Chrome Developer Tools are a set of web authoring and debugging tools built into Google Chrome. 
