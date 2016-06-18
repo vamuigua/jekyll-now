@@ -1,0 +1,74 @@
+---
+layout: post
+title: HTML & CSS NOTES 
+---
+**What Are HTML & CSS?**<br/>
+HTML, HyperText Markup Language, gives content structure and meaning by defining that content as, for example,
+headings, paragraphs, or images. <br/>
+CSS, or Cascading Style Sheets, is a presentation language created to style the
+appearance of content—using, for example, fonts or colors.<br/>
+
+ **Understanding Common HTML Terms**<br/>
+**1.Elements**<br/>
+-*Elements* are designators that define the structure and content of objects within a page.
+e.g <a><br/>
+
+**2.Tags**
+-The use of *less-than* and *greater-than* angle brackets surrounding an element creates what is known as a *tag*.<br/>
+-Tags most commonly occur in pairs of **opening and closing tags**.<br/>
+e.g <a>...</a> (Anchor Element)<br/>
+
+**3.Attributes**
+-Attributes are properties used to provide additional information about an element.<br/>
+<ul>
+ <li>Id attribute – identifies an element</li>
+ <li>class attribute - classifies an element</li>
+ <li>src attribute</li>
+
+ **Setting Up the HTML Document Structure.**<br/>
+-All HTML documents have a required structure that includes the following declaration and elements:
+<ul>
+ <li><!DOCTYPE html><li/>
+ <li><html></li>
+ <li><head></li>
+<li><body></li>
+-The document type declaration, or <!DOCTYPE html>, informs web browsers which version of HTML is being used and is placed at the very beginning of the HTML document.<br/>
+-Following the document type declaration, the <html> element signifies the beginning of the document.<br/>
+-Inside the <html> element, the <head> element identifies the top of the document, including any metadata (accompanying information about the page).<br/>
+-The content inside the <head> element is not displayed on the web page itself. Instead, it may include the document title ,links to any external files, or any other beneficial metadata.<br/>
+-All of the visible content within the web page will fall within the <body> element.<br/>
+
+**Understanding Common CSS Terms**<br/>
+**1.Selectors**<br/>
+-A selector designates exactly which element or elements within our HTML to target and apply styles (such as color, size, and position) to.<br/>
+-Selectors generally target an attribute value, such as an *id* or *class* value, or target the type of element, such as <h1> or <p> <br/>
+-Within CSS, selectors are followed with **curly brackets**, {}, which encompass the styles to be applied to the selected element.<br/>
+
+**2.Properties**<br/>
+-Once an element is selected, a property determines the styles that will be applied to that element.<br/>
+-Property names fall after a selector, within the curly brackets, {}, and immediately preceding a **colon**, (:)<br/>
+-There are numerous properties we can use, such as background, color, font-size, height and width.<br/>
+
+**3.Values**<br/>
+-Values determine the behavior of that property.<br/>
+-Values can be identified as the text between the colon, (:), and semicolon, (;).<br/>
+
+**Working with Selectors**<br/>
+**1.Type Selectors**<br/>
+-Type selectors target elements by their *element type*; i.e should we wish to target all division elements, <div>, we would use a type selector of div.<br>
+
+**2.Class Selectors**<br/>
+-Class selectors allow us to select an element based on the element’s class attribute value.<br/>
+-Class selectors are a little more specific than type selectors, as they select a particular group of elements rather than all elements of one type.<br/>
+-Class selectors allow us to apply the same styles to different elements at once by using the same class attribute value across multiple elements.<br/>
+
+**3.ID Selectors (<id>)**<br/>
+-ID selectors are even more precise than class selectors, as they target only one unique element at a time.<br/>
+-ID selectors use an element’s id attribute value as a selector.<br/>
+-Id attribute values can only be used once per page. If used they should be reserved for significant elements.<br>
+
+**Using CSS Resets**
+-CSS resets take every common HTML element with a predefined style and provide one unified style for all browsers.<br/>
+-These resets generally involve removing any sizing, margins, paddings, or additional styles and toning these values down.<br/>
+-Because CSS cascades from top to bottom—more on that soon—our reset needs to be at the very top of our style sheet.<br/>
+-Doing so ensures that those styles are read first and that all of the different web browsers are working from a common baseline e.g the Eric Meyer’s reset.<br/>
