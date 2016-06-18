@@ -2,7 +2,7 @@
 layout: post
 title: BOX MODEL
 ---
-** How Are Elements Displayed?** <br/>
+**How Are Elements Displayed?** <br/>
 -There are quite a few values for the display property, but the most common are block, inline, inline-block, and none.<br/>
 -We can change an element’s display property value by selecting that element with the Opening the Box Model CSS and declaring a new display property value.<br/>
 -A value of block will make that element a block-level element.<br/>
