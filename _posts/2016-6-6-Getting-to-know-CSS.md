@@ -92,7 +92,7 @@ The pixel is equal to 1/96th of an inch; thus there are 96 pixels in an inch. Th
       width: 50%;
     }
 
--Percentages are extremely helpful for setting the height and width of elements and building out a web page’s layout. We’re going to rely on them often to help us out in these areas<br/>
+-Percentages are extremely helpful for setting the height & width of elements and building out a web page’s layout. We’re going to rely on them often to help us out in these areas<br/>
 
 **Em**
 -The em unit is also a very popular relative value. The em unit is represented by the em unit notation, and its length is calculated based on an element’s font size.<br/>
