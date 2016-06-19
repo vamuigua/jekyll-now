@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Command Line
+title: Getting to Know CSS
 ---
-**Getting to Know CSS**<br/>
 **The Cascade**<br/>
 -Within CSS, all styles cascade from the top of a style sheet to the bottom, allowing different styles to be added or overwritten as the style sheet progresses.<br/>
 -For example, we select all paragraph elements at the top of our style sheet and set their background color to orange and their font size to 24 pixels. Then towards the bottom of our style sheet, we select all paragraph elements again and set their background color to green.For example:<br/>
