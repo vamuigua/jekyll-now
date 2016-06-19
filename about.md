@@ -1,15 +1,23 @@
 ---
 layout: page
-title: About
+title: ABOUT ME
 permalink: /about/
 ---
 
-Some information about you!
+I am an insipring Web and Software Developer<br/> 
+based in Nairobi,Kenya,<br/> 
+sorting after modern technologies to come up with more and better solutions across<br/> 
+Software Developments.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+My Skills in computer languages include:<br>
+<ul>
+<li>HTML</li>
+<li>CSS </li>
+<li>JavaScript</li>
+</ul>
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[vamuigua@gmail.com](vamuigua@gmail.com)
