@@ -2,7 +2,6 @@
 layout: post
 title: Complex Selectors
 ---
-**Complex Selectors**<br/>
 **COMMON SELECTORS**<br/>
 With an Example:<br/>
 <ul>
