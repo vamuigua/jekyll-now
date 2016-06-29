@@ -2,18 +2,20 @@
 layout: post
 title: Complex Selectors
 ---
-Complex Selectors
-COMMON SELECTORS
-With an Example:
- h1 - A Type Selector-Selects an element by it’s type
- .tagline - A Class Selector-Selects an element by the class attribute value, which may be reused multiple times per page
- #intro - ID Selector-Selects an element by the ID attribute value, which is unique and to only be used once per page
+**Complex Selectors**<br/>
+**COMMON SELECTORS**<br/>
+With an Example:<br/>
+<ul>
+<li>h1 - A Type Selector-Selects an element by it’s type</li>
+<li>.tagline - A Class Selector-Selects an element by the class attribute value, which may be reused multiple times per page</li>
+<li>#intro - ID Selector-Selects an element by the ID attribute value, which is unique and to only be used once per page</li>
+</ul>
 
- Child Selectors
-Child selectors provide a way to select elements that fall within one another, thus making them children of their parent element. These selections can be made two different ways, using either descendant or direct child selectors.
+**Child Selectors**<br/>
+-Child selectors provide a way to select elements that fall within one another, thus making them children of their parent element. These selections can be made two different ways, using either descendant or direct child selectors.<br/>
 
-1.Descendant Selector
-It matches every element that follows an identified ancestor. The descendant element does not have to come directly after the ancestor element inside the document tree, such as a parent-child relationship, but may fall anywhere within the ancestor element. Descendant selectors are created by spacing apart elements within a selector, creating a new level of hierarchy for each element list.
+**1.Descendant Selector**<br/>
+It matches every element that follows an identified ancestor. The descendant element does not have to come directly after the ancestor element inside the document tree, such as a parent-child relationship, but may fall anywhere within the ancestor element. Descendant selectors are created by spacing apart elements within a selector, creating a new level of hierarchy for each element list.<br/>
 
           CSS
           article h2 {...}
@@ -27,7 +29,7 @@ It matches every element that follows an identified ancestor. The descendant ele
             </div>
           </article>
 
-2.Direct Child Selector
+**2.Direct Child Selector**
 At times only the direct children of a parent element need to be selected, not every instance of the element nested deeply inside of an ancestor. In this event the direct child selector may be used by placing a greater than sign, >, between the parent element and child element within the selector.
 E.g Below, the paragraph on line 3 is the only direct child of it’s parent article, thus selected.
 
@@ -82,6 +84,25 @@ E.g The paragraph on line 5 is selected as it directly follows after its sibling
                   <p>...</p>
                 </section>
 
-Attribute Selectors
-1.Attribute Present Selector
-The first attribute selector identifies an element based on whether it includes an attribute or not, regardless of any actual value. To select an element based on if an attribute is present or not simply include the attribute name in square brackets, [], within a selector. The square brackets may or may not follow any qualifier such as an element type or class, all depending on the level of specificity desired.
+Pseudo-classes
+1.Link Pseudo-classes
+Some of the more basic pseudo-classes include two revolving around links specifically. The :link and :visited pseudo-classes define if a link has or hasn’t been visited. To style an anchor which has not been visited the :link pseudo-class comes into play, where the :visited pseudo-class styles links that a user has already visited based on their browsing history.
+                a:link {...}
+                a:visited {...}
+
+2.User Action Pseudo-classes
+Based on a users actions different pseudo-classes may be dynamically applied to an element, of which include the :hover, :active, and :focus pseudo-classes. The :hover pseudo-class is applied to an element when a user moves their cursor over the element, most commonly used with anchor elements. The :active pseudo-class is applied to an element when a user engages an element, such as clicking on an element. Lastly, the :focus pseudo-class is applied to an element when a user has made an element the focus point of the page, often by using the keyboard to tab from one element to another.                
+                a:hover {...}
+                a:active {...}
+                a:focus {...}
+
+3.User Interface State Pseudo-classes
+The :enabled pseudo-class selects an input that is in the default state of enabled and available for use, where the :disabled pseudo-class selects an input that has the disabled attribute tied to it. Many browsers by default will fade out disabled inputs to inform users that the input is not available for interaction, however those styles may be adjusted as wished with the :disabled pseudo-class.
+
+                input:enabled {...}
+                input:disabled {...}
+
+The last two user interface element state pseudo-classes of :checked and :indeterminate revolve around checkbox and radio button input elements. The :checked pseudo-class selects checkboxes or radio buttons that are, as you may expect, checked. When a checkbox or radio button has neither been selected or unselected it lives in an indeterminate state, from which the :indeterminate pseudo-class can be used to target these elements.
+
+                input:checked {...}
+                input:indeterminate {...}
