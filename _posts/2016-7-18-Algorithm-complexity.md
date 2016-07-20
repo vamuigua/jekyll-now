@@ -24,9 +24,9 @@ title: Algorithm Analysis
 
 -It's broken down into:<br>
 <ol>
-  **1.Worst-case Complexity** - When the amount of time required by an algorithm for a given input is *maximum.*<br>
-  **2.Average-case Complexity** - When the amount of time required by an algorithm for a given input is *average.*<br>
-  **3.Best-case Complexity** - When the amount of time required by an algorithm for a given input is *minimum.*<br>
+  1.**Worst-case Complexity** - When the amount of time required by an algorithm for a given input is *maximum.*<br>
+  2.**Average-case Complexity** - When the amount of time required by an algorithm for a given input is *average.*<br>
+  3.**Best-case Complexity** - When the amount of time required by an algorithm for a given input is *minimum.*<br>
   </ol>
 
 **What is Space Compelxity?**<br>
