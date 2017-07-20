@@ -33,11 +33,12 @@ Now what if that user has_many comments? In Rails, you most likely have a user_i
 Let’s say you’ve got indexes in place on users.id and comments.user_id, but then a request comes in to make “pretty urls” on these pages. Ok, no problem. We add a users.keyword column to users, and allow users to specify a username with their account. Now we can make requests to urls like /users/matt/comments, and see all comments by that user. Well, same situation as before, we need to do a find, but this time we’re matching against the ‘keyword’ column and not the ‘id’ column, so this needs to be indexed.
 
 ##Others include:
-
-* Composite keys on join models
-* State columns
-* Boolean Columns
-* Date columns
-* Columns used in polymorphic conditional joins
-* Columns used in validations
-* Columns used for STI
+<ul>
+	<li>Composite keys on join models</li>
+	<li>State columns</li>
+	<li>Boolean Columns</li>
+	<li>Date columns</li>
+	<li>Columns used in polymorphic conditional joins</li>
+	<li>Columns used in validations</li>
+	<li>Columns used for STI</li>
+</ul>
