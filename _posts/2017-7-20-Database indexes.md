@@ -20,20 +20,20 @@ SELECT name FROM users WHERE id = 1
 
 ## What should you Index?
 
-*<strong>Primary Keys</strong>
+### Primary Keys
 Most SQL databases with the concept of a primary key will automatically create an index on the primary key column when it exists. In Rails, this is typically the “id” column in a table, and because Rails tells the DB that it’s a primary key, you’ll get the index “for free”, created by the database. This is very important for a “show view” like /users/1, for example. The request comes in, and the query to “find user with id equal to 1” occurs very quickly because the users.id column is indexed.
 
-* **Foreign Keys**
+### Foreign Keys
 Now what if that user has_many comments? In Rails, you most likely have a user_id column in your comments table, which the Comment model will use to determine the user that it belongs to. You should have an index on every foreign key column. When you make a page like /users/1/comments, two things need to happen. First, we lookup the user with id equal to 1. Assuming we’ve indexed primary keys, this will be fast. Second, we want to find all comments that belong to this user. If we’ve indexed comments.user_id, this will be fast too.
 
 * **Columns used by to_param**
 Let’s say you’ve got indexes in place on users.id and comments.user_id, but then a request comes in to make “pretty urls” on these pages. Ok, no problem. We add a users.keyword column to users, and allow users to specify a username with their account. Now we can make requests to urls like /users/matt/comments, and see all comments by that user. Well, same situation as before, we need to do a find, but this time we’re matching against the ‘keyword’ column and not the ‘id’ column, so this needs to be indexed.
 
 Others include:
-*<strong>Composite keys on join models</strong>
-*<strong>State columns</strong>
-*<strong>Boolean Columns</strong>
-*<strong>Date columns</strong>
-*<strong>Columns used in polymorphic conditional joins</strong>
-*<strong>Columns used in validations</strong>
-*<strong>Columns used for STI</strong>
+**Composite keys on join models**
+**State columns**
+**Boolean Columns**
+**Date columns**
+**Columns used in polymorphic conditional joins**
+**Columns used in validations**
+**Columns used for STI**
